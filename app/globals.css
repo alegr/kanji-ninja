@@ -179,3 +179,13 @@ nav { display: flex; gap: .15rem; padding: .55rem 1.2rem; background: var(--bg2)
 .sync { font-size: .65rem; color: var(--text3); padding: .15rem .45rem; border-radius: 6px; }
 .sync.saving { color: var(--gold); }
 .sync.saved { color: var(--n5); }
+
+
+/* guest banner */
+.guest-banner { background: var(--n4d); border-bottom: 1px solid var(--n4); padding: .55rem 1.2rem; font-size: .78rem; color: var(--text); display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.guest-banner button { background: var(--n4); color: #000; border: none; border-radius: 6px; padding: .2rem .6rem; font-size: .75rem; font-weight: 700; cursor: pointer; }
+.guest-banner button:hover { filter: brightness(1.1); }
+
+/* guest continue button on login page */
+.login-guest-btn { width: 100%; padding: .7rem; border-radius: 12px; border: 1px solid var(--border2); background: transparent; color: var(--text2); font-size: .85rem; cursor: pointer; margin-top: .6rem; transition: .15s; }
+.login-guest-btn:hover { border-color: var(--text2); color: var(--text); }
